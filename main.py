@@ -8,9 +8,9 @@ import sys
 set_price = 0.91
 last_sent_message_time = datetime.datetime(2021, 12, 22, 22, 49, 38, 499491)
 
-BOT_TOKEN = '2059690124:AAGxuB9LEC-abMzDKqHI9IzdABgkioogunY'
-# CHAT_ID = '-573286459'
-CHAT_ID = '511293895'
+BOT_TOKEN = 'your token'
+
+CHAT_ID = 'your id'
 url = "https://api.coingecko.com/api/v3/"
 coins = url +"coins/markets?vs_currency=usd&ids=telos"
 def telegram_sendtext(bot_message):
